@@ -66,9 +66,6 @@
   width: 765px;
   height: 608px;
 
-  background: url(../images/header-image.png) no-repeat;
-  background-size: 765px 608px;
-
   position: absolute;
   right: 0;
   bottom: 0;
@@ -217,7 +214,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
 
   background: #f2f2f2 url(../images/feynman.png) no-repeat bottom left / 867px 637px;
 
