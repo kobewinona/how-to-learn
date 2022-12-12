@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
   </head>
-  <body class="page">
+  <body class="root">
     <header class="header">
       <img src="./images/logo_place_header.svg" alt="Логотип" class="logo logo_place_header">
       <h1 class="header__title">Научиться учиться</h1>
@@ -15,7 +15,7 @@
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать &rarr;</a>
       </h2>
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
       <img src="./images/header-image.png" alt="Иллюстрация к сайту" class="header__main-illustration">
     </header>
     <main class="content">
@@ -43,9 +43,18 @@
           </div>
         </div>
       </section>
+      <section class="techniques">
+
+      </section>
+      <section class="video">
+
+      </section>
+      <section class="oakley">
+        
+      </section>
       <section class="digits">
-        <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <h2 class="section-title section-title_stack-order_close">Цифры и факты</h2>
+        <h3 class="section-subtitle section-subtitle_stack-order_close">Про учёбу и мозг</h3>
         <ul class="table">
           <li class="table__cell table__cell_theme_light">
             <h4 class="table__heading">86 миллиардов</h4>
@@ -85,58 +94,66 @@
           </li>
         </ul>
       </section>
+      <section class="khan">
+
+      </section>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
         <a href="#" class="feynman__link">Подробнее &rarr;</a>
       </section>
       <section class="kaufman">
-        <h2 class="section-title">Принципы обучения</h2>
-        <h3 class="section-subtitle">от Джоша Кауфмана</h3>
-        <ul class="table">
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading">1</h4>
-            <p class="table__text">Выберите привлекательный проект.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading">2</h4>
-            <p class="table__text">Сосредоточьтесь на каком-то одном навыке.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading">3</h4>
-            <p class="table__text">Определите целевой уровень мастерства.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading">4</h4>
-            <p class="table__text">Разбейте навык на элементы.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading">5</h4>
-            <p class="table__text">Приготовьте всё необходимое для занятий.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading">6</h4>
-            <p class="table__text">Устраните препятствия для занятий.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading">7</h4>
-            <p class="table__text">Выделите специальное время для занятий.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading">8</h4>
-            <p class="table__text">Создайте быстрые петли обратной связи.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading">9</h4>
-            <p class="table__text">Занимайтесь по расписанию, короткими
-              интенсивными интервалами.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading">10</h4>
-            <p class="table__text">Уделяйте внимание количеству и скорости.</p>
-          </li>
-        </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="hidden">
+          <h2 class="section-title section-title_stack-order_close">Принципы обучения</h2>
+          <h3 class="section-subtitle section-subtitle_stack-order_close">от Джоша Кауфмана</h3>
+          <ul class="table">
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading">1</h4>
+              <p class="table__text">Выберите привлекательный проект.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading">2</h4>
+              <p class="table__text">Сосредоточьтесь на каком-то одном навыке.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading">3</h4>
+              <p class="table__text">Определите целевой уровень мастерства.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading">4</h4>
+              <p class="table__text">Разбейте навык на элементы.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading">5</h4>
+              <p class="table__text">Приготовьте всё необходимое для занятий.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading">6</h4>
+              <p class="table__text">Устраните препятствия для занятий.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading">7</h4>
+              <p class="table__text">Выделите специальное время для занятий.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading">8</h4>
+              <p class="table__text">Создайте быстрые петли обратной связи.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading">9</h4>
+              <p class="table__text">Занимайтесь по расписанию, короткими
+                интенсивными интервалами.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading">10</h4>
+              <p class="table__text">Уделяйте внимание количеству и скорости.</p>
+            </li>
+          </ul>
+          <div class="kaufman__triangle rotation"></div>
+        </div>
+      </section>
+      <section class="resources">
+
       </section>
     </main>
     <footer class="footer">
