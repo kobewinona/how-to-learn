@@ -1,14 +1,14 @@
 .section-subtitle {
-    width: 60%;
+  width: 60%;
 
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 34px;
-    text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  text-align: center;
 
-    position: relative;
-    padding-top: 20px;
-    margin: 0 auto;
+  position: relative;
+  padding-top: 20px;
+  margin: 0 auto;
 
-    z-index: 2;
-  }
+  z-index: 2;
+}

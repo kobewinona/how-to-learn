@@ -1,10 +1,10 @@
 .footer__columns {
-    width: 90%;
-    min-height: 250px;
-    box-sizing: border-box;
+  width: 90%;
+  min-height: 250px;
+  box-sizing: border-box;
 
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    margin: 0 auto;
-  }
+  margin: 0 auto;
+}
