@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
   </head>
   <body class="root">
     <header class="header">
-      <img src="./images/logo_place_header.svg" alt="Логотип" class="logo logo_place_header">
+      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум">
       <h1 class="header__title">Научиться учиться</h1>
       <h2 class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a class="header__link" href="#">Узнать &rarr;</a>
       </h2>
       <div class="header__square-pic rotation"></div>
-      <img src="./images/header-image.png" alt="Иллюстрация к сайту" class="header__main-illustration">
+      <img class="header__main-illustration" src="./images/header-image.png" alt="Иллюстрация к сайту">
     </header>
     <main class="content">
       <section class="description">
-        <article class="two-columns">
+        <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -41,37 +40,37 @@
               техники применяются на примере обучения в Практикуме.
             </p>
           </div>
-        </article>
+        </div>
       </section>
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
         <ul class="cards">
           <li class="cards__item">
-            <img class="cards__image" src="./images/cards-attention.png" alt="Внимание">
+            <img class="cards__image" src="./images/cards-attention.png" alt="Иллюстрация на тему внимание">
             <h4 class="cards__title">Два вида внимания</h4>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное
               и рассеянное мышление.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images/cards-recall.png" alt="Воспоминанние в памяти">
+            <img class="cards__image" src="./images/cards-recall.png" alt="Иллюстрация на тему воспоминанние в памяти">
             <h4 class="cards__title">Recall</h4>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные
               порции памяти.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images/cards-interliving.png" alt="Интерливинг">
+            <img class="cards__image" src="./images/cards-interliving.png" alt="Иллюстрация на тему интерливинг">
             <h4 class="cards__title">Интерливинг</h4>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images/cards-question.png" alt="Вопросы">
+            <img class="cards__image" src="./images/cards-question.png" alt="Иллюстрация на тему вопросы">
             <h4 class="cards__title">Вопросы</h4>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас
               действительно волнует.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images/cards-competence.png" alt="Книги">
+            <img class="cards__image" src="./images/cards-competence.png" alt="Иллюстрация на тему компетенция">
             <h4 class="cards__title">Иллюзия компетентности</h4>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется,
               что вы владеете новой темой.</p>
@@ -86,7 +85,6 @@
             class="video__iframe"
             src="https://www.youtube.com/embed/5MgBikgcWnY"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
           </iframe>
@@ -94,14 +92,13 @@
             class="video__iframe"
             src="https://www.youtube.com/embed/arj7oStGLkU"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
           </iframe>
         </div>
       </section>
       <section class="oakley">
-        <article class="two-columns">
+        <div class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -114,7 +111,7 @@
               гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
             </p>
           </div>
-        </article>
+        </div>
       </section>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
@@ -232,59 +229,59 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
         <div class="resources__logo-zone">
-          <a href=""><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt=""></a>
-          <a href=""><img class="resources__logo" src="./images/logo/resources-n1.svg" alt=""></a>
-          <a href=""><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt=""></a>
-          <a href=""><img class="resources__logo" src="./images/logo/resources-polka.svg" alt=""></a>
+          <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
+          <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н+1"></a>
+          <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
+          <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img src="./images/logo_place_footer.svg" alt="Логотип" class="logo logo_place_footer">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
           <p class="footer__author">&copy; Дима Климкин</p>
         </div>
-        <div class="footer__column footer__column_content_info">
-          <h6 class="footer__column-heading">О Практикуме</h6>
+        <nav class="footer__column footer__column_content_info">
+          <h2 class="footer__column-heading">О Практикуме</h2>
           <ul class="footer__column-links">
             <li><a class="footer__column-link" href="#">Главная</a></li>
             <li><a class="footer__column-link" href="#">Концепция</a></li>
             <li><a class="footer__column-link" href="#">Наставники</a></li>
           </ul>
-        </div>
-        <div class="footer__column footer__column_content_social">
-          <h6 class="footer__column-heading">Соцсети</h6>
+        </nav>
+        <nav class="footer__column footer__column_content_social">
+          <h2 class="footer__column-heading">Соцсети</h2>
           <ul class="footer__column-links">
             <li>
               <a class="footer__column-link" href="#">
                 <img
+                  class="footer__social-icon"
                   src="./images/youtube-icon.svg"
                   alt="Ютуб"
-                  class="footer__social-icon"
                 >YouTube
               </a>
             </li>
             <li>
               <a class="footer__column-link" href="#">
                 <img
+                  class="footer__social-icon"
                   src="./images/vk_color_white.svg"
                   alt="Вконтаке"
-                  class="footer__social-icon"
                 >Вконтакте
               </a>
             </li>
             <li>
               <a class="footer__column-link" href="#">
                 <img
+                  class="footer__social-icon"
                   src="./images/tiktok-icon.svg"
                   alt="ТикТок"
-                  class="footer__social-icon"
                 >TikTok
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </footer>
   </body>
