@@ -130,7 +130,7 @@ Inside those made-up blocks of lines I also try to maintain a certain order but 
 
 ----
 
-<h4 align="center"> This is here just so I could add those cool bubbles with colors. </h4>
+<h6 align="center"> This is here just so I could add those cool bubbles with colors. </h6>
 
 <br>
 
