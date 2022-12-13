@@ -8,5 +8,5 @@
 .resources__logo:hover {
     opacity: .6;
 
-    transition: .1s ease;
+    transition: .2s ease-in;
   }

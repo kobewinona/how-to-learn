@@ -2,7 +2,7 @@
   width: 877px;
   height: 877px;
 
-  background: url(/images/kaufman-triangle.svg) no-repeat;
+  background: url('../../../images/kaufman-triangle.svg') no-repeat;
   background-size: 877px 877px;
 
   position: absolute;
