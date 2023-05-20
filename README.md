@@ -1,43 +1,51 @@
-<h1 align="center">How to Learn</h1>
-<h2 align="center">&copy; Dima Klimkin</h2>
-<p align="center"> <a href="https://github.com/kobewinona" target="_blank" rel="noreferrer"> <img src="https://cdn.iconscout.com/icon/free/png-256/github-163-761603.png" alt="github" width="40" height="40"/> </a> </p>
+# How to Learn
 
-<h3 align="center">languages and tools used in this project</h3>
-<p align="center"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" alt="vscode" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png" alt="css3" width="40" height="40"/> </a> <a href="https://en.bem.info/" target="_blank" rel="noreferrer"> <img src="https://miro.medium.com/max/1000/1*AGA-0gdD017hFbxeRR7vdQ.png" alt="css3" width="40" height="40"/> </a> </p>
+[![Dima Klimkin Profile Page](https://img.shields.io/badge/Dima_Klimkin-f9f9f9?style=for-the-badge&logoColor=000&logo=github)](https://github.com/kobewinona)
+[![How to Learn Gh-Pages Page](https://img.shields.io/badge/GitHub_Pages-How_to_Learn-f9f9f9?style=for-the-badge&logo=githubpages)](https://kobewinona.github.io/how-to-learn/)
 
-<br>
-<br>
+[![HTML5](https://img.shields.io/badge/HTML5-f9f9f9?style=for-the-badge&logo=HTML5)](https://dev.w3.org/html5/spec-LC/)
+[![CSS3](https://img.shields.io/badge/CSS3-f9f9f9?logoColor=264BDC&style=for-the-badge&logo=CSS3)](https://www.w3.org/TR/CSS/#css)
+[![Git](https://img.shields.io/badge/Git-f9f9f9?style=for-the-badge&logo=git)](https://git-scm.com)
+[![BEM](https://img.shields.io/badge/BEM-f9f9f9?logoColor=black&style=for-the-badge&logo=bem)](https://en.bem.info/methodology/)
 
-- ► [about this project](#about)
-- ► [CSS syntax decoration I used in this project](#about)
-- ► [styling of this project](#styling)
-- ► [difficulties during this project](#difficulties)
+[![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-f9f9f9?style=for-the-badge&logoColor=0066b8&logo=visualstudiocode)](https://code.visualstudio.com)
 
-<br>
+---
 
-----
+## contents
 
-<h3 align="center"> <a name="about"> about this project </a> </h3>
+- [about this project](#about-this-project)
+- [what I've learnt doing this project](#what-Ive-learnt-doing-this-project)
+- [CSS syntax decoration I used in this project](#CSS-syntax-structure-I-used-in-this-project)
+- [problems I've encountered doing this project](#problems-Ive-encountered-doing-this-project)
+  - [problem #1](#problem-1)
+  - [problem #2](#problem-2)
 
-----
+---
 
-This project helped me to better understand basics of HTML and CSS languagues and VSCode and git tools. Also I finally singed up at GitHub which I never wanted to do before since I didn't recognize myself as a developer of any sorts (*still kind of hard to say that about myself since I'm still learing*). I've learnt a lot from building this small page. Most importanly I finally tried using git which scared me a lot before, but now I can do very simple commands and I actually understand what I'm doing (*most of the time* ☺).
+## about this project
 
-The webpage itself is about better ways to learn, remembering new information, mistakes in learning process that have a negative impact on how much of new information you actually absorb and can use well afterwards. While building this page I've learnt about Feynman method of learning which is well reviewed [here](https://www.colorado.edu/artssciences-advising/resource-library/life-skills/the-feynman-technique-in-academic-coaching), but to put it shortly here are the main principles:
+This project has helped me better understand the basics of `HTML`, `CSS`, and IDE tools (VSCode in this case). In addition, I've become familiar with completely new things for me like `git` and `BEM`. I've also finally signed up at `GitHub`, which I never wanted to do before since I didn't recognize myself as a developer of any sorts (*still kind of hard to say that about myself since I'm still learning*). I've learned a lot from building this small page. Most importantly, I finally tried using `git`, which scared me a lot before. But now I can do very simple commands, and I actually understand what I'm doing (*most of the time* ☺).
+
+The webpage itself is about better ways to learn, remembering new information, and mistakes in the learning process that have a negative impact on how much new information you actually absorb and can use well afterwards. While building this page, I learned about the Feynman method of learning, which is well reviewed [here](https://www.colorado.edu/artssciences-advising/resource-library/life-skills/the-feynman-technique-in-academic-coaching). To put it shortly, here are the main principles:
+
 1. Step 1 – Study.
 2. Step 2 - Teach.
 3. Step 3 - Fill the Gaps.
 4. Step 4 - Simplify.
 
-Also check ten major principles of effective learning by Josh Kaufman.
+Also, check out the ten major principles of effective learning by Josh Kaufman.
 
-----
+I hope this helps you in your learning journey!
 
-<h3 align="center"> <a name="about"> CSS syntax decoration I used in this project </a> </h3>
+## what I've learnt doing this project
 
-----
+1. I learned how to initialize the `git` control system for my project, how to use `SSH-keys` to connect the remote repository to my local one, and how to commit changes to the remote repository (GitHub in my case).
+2. I also learned the basics and benefits of using BEM (Block, Element, Modifier), and specifically about the different types of file structure recommended by the BEM methodology. In this project, I used a `nested` file structure, which might be an exaggeration considering the size of the project. A `flex` or `flat` file structure would have been more reasonable, but it's good to know all the options. I hope this helps you with your own project!
 
-To make the code more readable for me I decided to devide rules by their function:
+## CSS syntax structure I used in this project
+
+To make the code more readable for me, I decided to divide rules by their function:
 
 ```css
 .header__title {
@@ -54,49 +62,38 @@ To make the code more readable for me I decided to devide rules by their functio
 }
 ```
 
-<br>
-
-**1st** block of lines describes an object in generall:
+**1st** block of lines describes an object in general:
 
 ```css
-dev {
+div {
   width: 0;
   min-height: 0;
   box-sizing: border-box;
   overflow: hidden;
 }
 ```
->etc.
-
-<br>
 
 **2nd** block of lines describes text and its decoration:
 
 ```css
-dev {
+div {
   color: #fff;
   font-size: 14px;
   font-weight: normal;
   text-align: center;
 }
 ```
->etc.
-
-<br>
 
 **3rd** block of lines describes an object's content layout:
 
 ```css
-dev {
+div {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   column-gap: 0;
 }
 ```
->etc.
-
-<br>
 
 **4th** block of lines describes an object's position and size:
 
@@ -105,7 +102,7 @@ dev {
 - *rules with sides*  *go from top to the left* ↻
 
 ```css
-dev {
+div {
   position: absolute;
   top: 0;
   right: 0;
@@ -114,53 +111,16 @@ dev {
   padding: 0;
 }
 ```
-<img src="https://i.postimg.cc/HkN8sKfB/element.png" />
 
-<br>
+**5th** block of lines is just `z-index` ☺.
 
-**5th** block of lines is just ```z-index``` ☺.
+Within these rules I try to maintain a certain order (still I sometimes fail).
 
-<br>
+## problems I've encountered doing this project 
 
-Inside those made-up blocks of lines I also try to maintain a certain order but sometimes I fail and it's not like anyone will ever see this anyway)
+### problem #1
 
-----
-
-<h3 align="center"> <a name="styling"> styling of this project </a> </h3>
-
-----
-
-<h6 align="center"> This is here just so I could add those cool bubbles with colors. </h6>
-
-<br>
-
-**font**
-
-```css
-font-family: 'Helvetica Neue', Arial, sans-serif;
-```
-
-**colors**
-
-<p> <span style="color: #f2f2f2"> ⬤ </span> dark grey (background) #f2f2f2</p>
-
-<p> <span style="color: #1f1f1f"> ⬤ </span> light grey (background) #1f1f1f</p>
-
-<p> <span style="color: #2f80ed"> ⬤ </span> blue (links, figures) #2f80ed</p>
-
-<p> <span style="color: #000000"> ⬤ </span> black (text) #000000</p>
-
-
-
-----
-
-<h3 align="center"> <a name="difficulties"> difficulties during this project </a> </h3>
-
-----
-
-**1 problem**
-
-In ```video``` section I decided to add an ```<abbr>``` tag to give **TED** a translation, but FireFox, GoogleChrome and Safari added an underline to the text. The simpliest solution to get rid of that would be to use css styling, but for some reason it does not override normalize styling, which is this:
+In `video` section I decided to add an `<abbr>` tag to give **TED** a translation, but FireFox, GoogleChrome and Safari added an underline to the text. The simplest solution to get rid of that would be to use css styling, but for some reason it does not override normalize styling, which is this:
 
 ```css
 abbr[title] {
@@ -177,37 +137,32 @@ so this does not work:
 }
 ```
 
-**solution 1**
+#### solution #1
 
->for some reason a more specific selector overrides normalize styling just fine:
+for some reason a more specific selector overrides normalize styling just fine:
+
 ```css
 .section-title .abbreviation {
   text-decoration: none;
 }
 ```
 
-**solution 2**
+#### solution #2
 
->not the best way to do the job, but it gets rid of that stupid underline:
+not the best way to do the job, but it gets rid of that stupid underline:
+
 ```html
 <abbr style="text-decoration: none;"></abbr>
 ```
 
-<br>
+### problem #2
 
-**2 problem**
+Using BEM Nested structure system caused a problem with absolute paths to files in CSS styling files. For some reason if you `@import` a CSS stylesheet it messes up the root folder for that file so all urls to images that I used in single CSS stylesheet stopped working of course.
 
-Using BEM Nested structure system caused a problem with absolute paths to files in CSS styling files. For some reason if you ```@import``` a CSS stylesheet it messes up the root folder for that file so all urls to images that I used in single CSS stylesheet stopped working of course.
+#### solution
 
-**solution**
+relative path
 
->relative path
+---
 
-<br>
-<br>
-
-----
-
-<p align="center">thanks to yandex practicum team</p>
-<p align="center"> <a href="https://practicum.yandex.ru/" target="_blank" rel="noreferrer"> <img src="https://pic.rutubelist.ru/user/12/6c/126c75567c0299910e36d7275afec321.jpg" alt="css3" width="40" height="40"/> </a> </p>
-<p align="center">♥</p>
+&hearts; thanks to yandex practicum team
