@@ -1,4 +1,4 @@
-![cover](images/readme/cover.png)
+[![cover](images/readme/cover.png)](https://kobewinona.github.io/how-to-learn/)
 
 # How to Learn
 
