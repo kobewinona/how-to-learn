@@ -1,3 +1,5 @@
+![cover](images/readme/cover.png)
+
 # How to Learn
 
 [![Dima Klimkin Profile Page](https://img.shields.io/badge/Dima_Klimkin-f9f9f9?style=for-the-badge&logoColor=000&logo=github)](https://github.com/kobewinona)
