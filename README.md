@@ -10,8 +10,6 @@
 
 [![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-f9f9f9?style=for-the-badge&logoColor=0066b8&logo=visualstudiocode)](https://code.visualstudio.com)
 
----
-
 ## contents
 
 - [about this project](#about-this-project)
@@ -20,8 +18,6 @@
 - [problems I've encountered doing this project](#problems-Ive-encountered-doing-this-project)
   - [problem #1](#problem-1)
   - [problem #2](#problem-2)
-
----
 
 ## about this project
 
