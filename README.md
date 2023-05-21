@@ -15,9 +15,9 @@
 ## contents
 
 - [about this project](#about-this-project)
-- [what I've learnt doing this project](#what-Ive-learnt-doing-this-project)
+- [what I learned doing this project](#what-I-learned-doing-this-project)
 - [CSS syntax decoration I used in this project](#CSS-syntax-structure-I-used-in-this-project)
-- [problems I've encountered doing this project](#problems-Ive-encountered-doing-this-project)
+- [problems I encountered doing this project](#problems-I-encountered-doing-this-project)
   - [problem #1](#problem-1)
   - [problem #2](#problem-2)
 
@@ -36,7 +36,7 @@ Also, check out the ten major principles of effective learning by Josh Kaufman.
 
 I hope this helps you in your learning journey!
 
-## what I've learnt doing this project
+## what I learned doing this project
 
 1. I learned how to initialize the `git` control system for my project, how to use `SSH-keys` to connect the remote repository to my local one, and how to commit changes to the remote repository (GitHub in my case).
 2. I also learned the basics and benefits of using BEM (Block, Element, Modifier), and specifically about the different types of file structure recommended by the BEM methodology. In this project, I used a `nested` file structure, which might be an exaggeration considering the size of the project. A `flex` or `flat` file structure would have been more reasonable, but it's good to know all the options. I hope this helps you with your own project!
@@ -114,7 +114,7 @@ div {
 
 Within these rules I try to maintain a certain order (still I sometimes fail).
 
-## problems I've encountered doing this project 
+## problems I encountered doing this project 
 
 ### problem #1
 
